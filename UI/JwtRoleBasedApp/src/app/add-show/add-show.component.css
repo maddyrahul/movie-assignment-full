@@ -1,0 +1,65 @@
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Center vertically */
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Card Styles */
+.add-show-card {
+    width: 100%;
+    max-width: 600px; /* Max width for responsiveness */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background */
+}
+
+/* Card Title Styles */
+.card-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+/* Form Field Styles */
+.form-field {
+    width: 100%;
+    margin-bottom: 20px; /* Spacing between fields */
+}
+
+/* Button Group Styles */
+.button-group {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Margin above button group */
+}
+
+/* Button Styles */
+button {
+    flex: 1; /* Flex to make buttons equal width */
+    margin: 0 5px; /* Margin between buttons */
+}
+
+/* Alert Styles */
+.alert {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Success and Error Message Colors */
+.alert-success {
+    background-color: #dff0d8; /* Light green background */
+    color: #3c763d; /* Dark green text */
+}
+
+.alert-danger {
+    background-color: #f2dede; /* Light red background */
+    color: #a94442; /* Dark red text */
+}

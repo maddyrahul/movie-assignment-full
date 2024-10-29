@@ -1,0 +1,41 @@
+<div class="add-movie-container">
+    <mat-card class="movie-card">
+      <mat-card-title>Add New Movie</mat-card-title>
+      <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+      <mat-card-content>
+        <form (ngSubmit)="onSubmit()" #movieForm="ngForm" class="movie-form">
+          
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Movie Name</mat-label>
+            <input matInput [(ngModel)]="movie.name" name="name" required>
+            <mat-error *ngIf="movieForm.controls['name']?.invalid">Movie Name is required</mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Genre</mat-label>
+            <input matInput [(ngModel)]="movie.genre" name="genre" required>
+            <mat-error *ngIf="movieForm.controls['genre']?.invalid">Genre is required</mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Director</mat-label>
+            <input matInput [(ngModel)]="movie.director" name="director" required>
+            <mat-error *ngIf="movieForm.controls['director']?.invalid">Director is required</mat-error>
+          </mat-form-field>
+  
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Description</mat-label>
+            <textarea matInput [(ngModel)]="movie.description" name="description" rows="3" required></textarea>
+            <mat-error *ngIf="movieForm.controls['description']?.invalid">Description is required</mat-error>
+          </mat-form-field>
+  
+          <div class="action-buttons">
+            <button mat-raised-button color="primary" type="submit" [disabled]="movieForm.invalid">Add Movie</button>
+            <button mat-stroked-button color="warn" type="reset">Clear</button>
+          </div>
+          
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

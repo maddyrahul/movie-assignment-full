@@ -1,0 +1,73 @@
+<div class="container">
+    <mat-card class="add-show-card">
+      <mat-card-title class="card-title">Add Show for Movie {{ movieName }}</mat-card-title>
+  
+      <!-- Success and Error Messages -->
+      <div *ngIf="successMessage" class="alert alert-success">{{ successMessage }}</div>
+      <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+  
+      <!-- Add Show Form -->
+      <form [formGroup]="showForm" (ngSubmit)="addShow()">
+        <!-- Start Date -->
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Start Date</mat-label>
+          <input matInput formControlName="startDate" type="date" />
+          <mat-error *ngIf="showForm.controls['startDate'].invalid && showForm.controls['startDate'].touched">
+            Start date is required.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- End Date -->
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>End Date</mat-label>
+          <input matInput formControlName="endDate" type="date" />
+          <mat-error *ngIf="showForm.controls['endDate'].invalid && showForm.controls['endDate'].touched">
+            End date is required.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Timing -->
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Timing</mat-label>
+          <input matInput formControlName="timing" type="number" placeholder="e.g., 1430" />
+          <mat-error *ngIf="showForm.controls['timing'].invalid && showForm.controls['timing'].touched">
+            Timing is required and must be a valid integer in hour.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Number of Seats -->
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Number of Seats</mat-label>
+          <input matInput formControlName="numberOfSeats" type="number" min="1" max="100" />
+          <mat-error *ngIf="showForm.controls['numberOfSeats'].invalid && showForm.controls['numberOfSeats'].touched">
+            Number of seats is required and must be greater than 0 and less than 100.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Price -->
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Price</mat-label>
+          <input matInput formControlName="price" type="number" min="1" />
+          <mat-error *ngIf="showForm.controls['price'].invalid && showForm.controls['price'].touched">
+            Price is required and must be greater than 0.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Screen Number -->
+        <mat-form-field appearance="outline" class="form-field">
+          <mat-label>Screen Number</mat-label>
+          <input matInput formControlName="screenNumber" type="number" min="1" />
+          <mat-error *ngIf="showForm.controls['screenNumber'].invalid && showForm.controls['screenNumber'].touched">
+            Screen number is required and must be greater than 0.
+          </mat-error>
+        </mat-form-field>
+  
+        <!-- Buttons -->
+        <div class="button-group">
+          <button mat-raised-button color="primary" type="submit" [disabled]="showForm.invalid">Add Show</button>
+          <button mat-button type="button" color="warn" (click)="goBack()">Back to Movie List</button>
+        </div>
+      </form>
+    </mat-card>
+  </div>
+  

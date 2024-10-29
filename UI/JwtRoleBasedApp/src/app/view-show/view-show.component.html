@@ -1,0 +1,42 @@
+<div class="container">
+    <h2>Available Shows for Movie</h2>
+  
+    <!-- Error Message -->
+    <div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+  
+    <!-- Show List -->
+    <div *ngIf="shows.length > 0">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+          
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Timing</th>
+            <th>Seats Available</th>
+            <th>Price</th>
+            <th>Screen Number</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let show of shows">
+            
+            <td>{{ show.startDate }}</td>
+            <td>{{ show.endDate }}</td>
+            <td>{{ show.timing }}</td>
+            <td>{{ show.numberOfSeats }}</td>
+            <td>{{ show.price }}</td>
+            <td>{{ show.screenNumber }}</td>
+            <td>
+              <!-- Book Ticket Button -->
+              <button class="btn btn-primary" (click)="bookTicket(show.showId)">Select show</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <div *ngIf="shows.length === 0" class="alert alert-info">No shows available for this movie.</div>
+  </div>
+  

@@ -1,0 +1,46 @@
+:host {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #28a745;
+  }
+  
+  .navbar-toggler {
+    color: #ffc107;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffc107;
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .nav-item .btn {
+    margin-right: 1rem;
+    font-weight: 500;
+  }
+  
+  .nav-item:last-child .btn {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .nav-item .btn {
+      margin-bottom: 0.5rem;
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,33 @@
+<h1 mat-dialog-title class="dialog-title">Select Seats for "{{ data.show.movieName }}"</h1>
+
+<div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+<div mat-dialog-content class="dialog-content">
+  <p class="available-seats">Available Seats: <span>{{ availableSeats }}</span></p>
+
+  <mat-form-field class="seats-input" appearance="fill">
+    <mat-label>Number of Seats</mat-label>
+    <input 
+      matInput 
+      type="number" 
+      [(ngModel)]="seats" 
+      placeholder="Enter number of seats" 
+      min="1" 
+      
+    />
+  </mat-form-field>
+
+  <p class="total-price">Total Price: <strong>{{ totalAmount }}</strong></p> <!-- Display currency for better UX -->
+</div>
+
+<div mat-dialog-actions class="dialog-actions">
+  <button mat-button class="cancel-button" (click)="onCancel()">Cancel</button>
+  <button 
+    mat-raised-button 
+    color="primary" 
+    class="confirm-button" 
+    (click)="onConfirm()" 
+   >
+    Book Now
+  </button>
+</div>

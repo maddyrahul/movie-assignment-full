@@ -1,0 +1,27 @@
+.add-movie-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .movie-card {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .movie-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  

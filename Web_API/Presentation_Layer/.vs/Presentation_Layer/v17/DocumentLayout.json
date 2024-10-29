@@ -1,0 +1,646 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\presentation_layer\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\presentation_layer\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\presentation_layer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FE27887-0F04-4CE3-9952-EBD4377092A6}|..\\Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\business_layer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\repository\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\presentation_layer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\presentation_layer\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\repository\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FE27887-0F04-4CE3-9952-EBD4377092A6}|..\\Business_Layer\\Business_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\business_layer\\business_layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F92F950-FCDE-4B18-91A5-1E0008B4C618}|..\\Data_Access_Layer\\Data_Access_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\data_access_layer\\data_access_layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|c:\\users\\rahulmaddheshiya\\downloads\\movie-assignment\\web_api\\presentation_layer\\presentation_layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E4B88B9A-4B90-4DD4-AD04-A5271A53B2F7}|Presentation_Layer.csproj|solutionrelative:presentation_layer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\LoginModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009140318_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009135514_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\IAuthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\AuthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\CustomerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\RegisterModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\AdminRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\ICustomerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\TicketDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\ShowDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\MovieDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\LoginModelDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\RegisterModelDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009162809_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\AdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\IAdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\ICustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\IAdminRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T16:36:55.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:41:34.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:41:59.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Business_Layer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\Business_Layer\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Business_Layer\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\Business_Layer\\Services\\AuthService.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwBAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:18:09.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T08:51:31.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T12:50:27.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T06:02:39.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:09:16.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-11T06:04:30.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAcwDsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:41:37.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TicketDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:13:07.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\Ticket.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:11:16.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:08:13.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:09:51.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Presentation_Layer.csproj",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Presentation_Layer.csproj",
+              "RelativeDocumentMoniker": "Presentation_Layer.csproj",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Presentation_Layer\\Presentation_Layer.csproj",
+              "RelativeToolTip": "Presentation_Layer.csproj",
+              "ViewState": "AQIAAAEAAAAAAAAAAABBwBcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T04:33:35.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\LoginModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:10:29.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Business_Layer.csproj",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Business_Layer\\Business_Layer.csproj",
+              "RelativeDocumentMoniker": "..\\Business_Layer\\Business_Layer.csproj",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Business_Layer\\Business_Layer.csproj",
+              "RelativeToolTip": "..\\Business_Layer\\Business_Layer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T05:04:13.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Data_Access_Layer.csproj",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Data_Access_Layer.csproj",
+              "RelativeDocumentMoniker": "..\\Data_Access_Layer\\Data_Access_Layer.csproj",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\Movie-Assignment\\Web_API\\Data_Access_Layer\\Data_Access_Layer.csproj",
+              "RelativeToolTip": "..\\Data_Access_Layer\\Data_Access_Layer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T05:01:31.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\IAuthRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:07.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\AuthService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:49.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\AuthRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:39:36.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\ApplicationUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:00:01.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\IAuthService.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\IAuthService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T11:10:12.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\CustomerService.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\CustomerService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:54.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\RegisterModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:00:09.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Show.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\Show.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Show.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\Show.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:24:56.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Ticket.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\Ticket.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:23:24.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\AdminRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:39:31.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\ICustomerService.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\ICustomerService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:56.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TicketDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\TicketDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:30:56.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ShowDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\ShowDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\ShowDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\ShowDto.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\ShowDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:30:58.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MovieDto.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\MovieDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\MovieDto.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\MovieDto.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\MovieDto.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:27:41.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginModelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\LoginModelDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\LoginModelDTO.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\LoginModelDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\LoginModelDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:27:39.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Models\\Movie.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Models\\Movie.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:24:44.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Data\\ApplicationDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:26:37.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterModelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\RegisterModelDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\RegisterModelDTO.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\DTOs\\RegisterModelDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\DTOs\\RegisterModelDTO.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:31:00.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20241009162809_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009162809_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009162809_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009162809_add.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009162809_add.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T16:28:09.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\AdminService.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\AdminService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:45.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Business_Layer\\Services\\IAdminService.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Business_Layer\\Services\\IAdminService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T16:05:50.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\ICustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\ICustomerRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:40:15.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20241009140318_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009140318_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009140318_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009140318_add.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009140318_add.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T14:03:18.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241009135514_add.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009135514_add.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009135514_add.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009135514_add.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Migrations\\20241009135514_add.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:55:14.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\rahulmaddheshiya\\Downloads\\jwtroleapp\\Data_Access_Layer\\Repository\\IAdminRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\jwtroleapp\\Data_Access_Layer\\Repository\\IAdminRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:39:50.781Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

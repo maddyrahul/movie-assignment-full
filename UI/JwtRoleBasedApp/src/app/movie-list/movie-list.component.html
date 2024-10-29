@@ -1,0 +1,48 @@
+<!-- <div class="date-picker-container">
+    <label for="date">Select Date: </label>
+    <input type="date" [(ngModel)]="selectedDate" (change)="onDateChange($event)" class="date-picker" />
+  </div>
+  
+  <div *ngIf="movies.length > 0; else noMovies" class="movies-container">
+    <h2 class="movies-title">Available Movies on {{ selectedDate | date: 'longDate' }}</h2>
+    <ul class="movie-list">
+      <li *ngFor="let movie of movies" class="movie-item">
+        <div class="movie-details">
+          <a >
+            {{ movie.name }} ({{ movie.genre }}) - Directed by {{ movie.director }}
+          </a>
+        </div>
+        <button class="btn btn-primary movie-btn" (click)="viewShowDetails(movie.movieId)">View Shows</button>
+      </li>
+    </ul>
+  </div>
+  
+  <ng-template #noMovies>
+    <p class="no-movies">No movies available for the selected date.</p>
+  </ng-template>
+   -->
+
+
+   <div class="date-picker-container">
+    <label for="date" class="date-label">Select Date:</label>
+    <input type="date" [(ngModel)]="selectedDate" (change)="onDateChange($event)" class="date-picker" />
+  </div>
+  
+  <div *ngIf="movies.length > 0; else noMovies" class="movies-container">
+    <h2 class="movies-title">Available Movies on {{ selectedDate | date: 'longDate' }}</h2>
+    <ul class="movie-list">
+      <li *ngFor="let movie of movies" class="movie-item">
+        <div class="movie-details">
+          <a class="movie-link">
+            {{ movie.name }} ({{ movie.genre }}) - Directed by {{ movie.director }}
+          </a>
+        </div>
+        <button class="btn btn-primary movie-btn" (click)="viewShowDetails(movie.movieId)">View Shows</button>
+      </li>
+    </ul>
+  </div>
+  
+  <ng-template #noMovies>
+    <p class="no-movies">No movies available for the selected date.</p>
+  </ng-template>
+  
